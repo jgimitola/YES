@@ -13,12 +13,13 @@ public class PlayerMovement : MonoBehaviour
 
     private float _horizontal;
     private bool _jumping;
-    private bool _grounded = false;
-    private bool _leftWall = false;
-    private bool _rightWall = false;
+    private bool _grounded;
+    private bool _leftWall;
+    private bool _rightWall;
 
     private Rigidbody2D _rigidBody2D;
     private CircleCollider2D _circleCollider2D;
+    public GameManager gameManager;
     [SerializeField] private LayerMask platformLayerMask;
     [SerializeField] private LayerMask wallLayerMask;
 
