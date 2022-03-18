@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - StartPos
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - UI
   - Player
   - Walls
-  - Ground
+  - Suelo
   - 
   - 
   - 
@@ -38,6 +40,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Timer
+    uniqueID: 3515667019
+    locked: 0
+  - name: Background
+    uniqueID: 3602882563
+    locked: 0
+  - name: Background2
+    uniqueID: 4150847103
+    locked: 0
+  - name: Background3
+    uniqueID: 231431229
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
